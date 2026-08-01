@@ -1,0 +1,16 @@
+generated: '2026-07-20'
+method: searched
+source: https://pointone.com/security
+standards:
+- id: soc2-type2
+  conforms: true
+  evidence: "Security page states SOC 2 Type 2 with independent audits for confidentiality and integrity"
+- id: iso-27001
+  conforms: true
+  evidence: "Security page cites ISO 27001 information security certification"
+- id: gdpr
+  conforms: true
+  evidence: "Security page states GDPR compliance, data privacy by design"
+- id: hipaa
+  conforms: true
+  evidence: "Security page states HIPAA requirements supported for healthcare-adjacent practices"

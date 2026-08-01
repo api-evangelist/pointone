@@ -1,7 +1,29 @@
 aid: pointone
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/pointone.png
 name: Pointone
-description: Pointone is a company surfaced as a portfolio company of 8vc and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  PointOne is an AI-powered legal practice management platform that automates
+  time entry, billing compliance, and analytics for law firms. Its products
+  include PointOne Time (automatic cross-device time capture with AI-generated
+  narratives), PointOne Review (pre-bill review with AI markup and collaboration),
+  and PointOne Intelligence (time analytics and resource-allocation insights),
+  along with automatic enforcement of Outside Counsel Guidelines. The platform
+  syncs with billing systems including Aderant, Clio, Filevine, QuickBooks,
+  Actionstep, Elite 3E, Surepoint, MyCase, and LeanLaw, and serves 200+ law
+  firms. PointOne is backed by Bessemer, Y Combinator, General Catalyst, and 8VC.
+  No public developer API is currently published; integrations are delivered as
+  pre-built connectors.
 url: https://raw.githubusercontent.com/api-evangelist/pointone/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,9 +33,17 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Legal
+- Legaltech
+- Practice Management
+- Time Tracking
+- Billing
+- Compliance
+- Artificial Intelligence
+- Law Firms
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,3 +53,24 @@ maintainers:
 common:
 - type: Website
   url: https://pointone.com
+- type: Login
+  url: https://app.pointone.com
+- type: Blog
+  url: https://pointone.com/blog
+- type: PrivacyPolicy
+  url: https://pointone.com/privacy
+- type: TermsOfService
+  url: https://pointone.com/terms
+- type: Security
+  url: https://pointone.com/security
+- type: Compliance
+  url: https://pointone.com/security
+- type: Conformance
+  url: conformance/pointone-conformance.yml
+- type: DomainSecurity
+  url: security/pointone-domain-security.yml
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 2
+  pass: local-v1
